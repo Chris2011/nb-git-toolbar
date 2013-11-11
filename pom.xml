@@ -1,0 +1,82 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>de.markiewb.netbeans.plugins</groupId>
+    <artifactId>git.toolbar</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>nbm</packaging>
+
+    <name>Git toolbar</name>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <repositories>
+        <!--
+        Repository hosting NetBeans modules, especially APIs.
+        Versions are based on IDE releases, e.g.: RELEASE691
+        To create your own repository, use: nbm:populate-repository
+        -->
+        <repository>
+            <id>netbeans</id>
+            <name>NetBeans</name>
+            <url>http://bits.netbeans.org/maven2/</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+
+    <dependencies>
+
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>nbm-maven-plugin</artifactId>
+                <version>3.11.1</version>
+                <extensions>true</extensions>
+                <configuration>
+                    <!-- keep it for backwards compatibility to previous versions-->
+                    <codeNameBase>git.toolbar</codeNameBase>
+                    <licenseFile>LICENSE-2.0.txt</licenseFile>
+                    <author>Benno Markiewicz (benno.markiewicz@googlemail.com)</author>
+                    <homePageUrl>https://github.com/markiewb/nb-git-toolbar</homePageUrl>
+                    <keystore>nbproject/private/keystore</keystore>
+                    <licenseName>Apache 2.0</licenseName>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <!-- NetBeans 6.9+ requires JDK 6, starting NetBeans 7.4 source 1.7 will be required   -->
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>2.5.1</version>
+                <configuration>
+                    <source>1.6</source>
+                    <target>1.6</target>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>2.4</version>
+                <configuration>
+                    <!-- to have the jar plugin pickup the nbm generated manifest -->
+                    <useDefaultManifestFile>true</useDefaultManifestFile>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+    <description>This plugins adds a toolbar for common GIT actions
+&lt;p&gt;
+&lt;img src="https://raw.github.com/markiewb/nb-git-toolbar/master/doc/screenshot1.png"/&gt;
+&lt;/p&gt;
+&lt;p&gt;Legal disclaimer: Code is licensed under Apache 2.0. &lt;/p&gt;
+</description>
+</project>

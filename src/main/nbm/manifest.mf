@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+OpenIDE-Module-Layer: de/markiewb/netbeans/plugin/git/toolbar/layer.xml
+OpenIDE-Module-Localizing-Bundle: de/markiewb/netbeans/plugin/git/toolbar/Bundle.properties

@@ -44,9 +44,17 @@
                 <attr name="instanceCreate" newvalue="javax.swing.JSeparator"/>
                 <attr intvalue="550" name="position"/>
             </file>
+            <file name="org-netbeans-modules-git-ui-fetch-PullFromUpstreamAction.instance.shadow">
+                  <attr name="originalFile" stringvalue="Actions/Git/org-netbeans-modules-git-ui-fetch-PullFromUpstreamAction.instance"/>
+                <attr name="position" intvalue="560"/>
+            </file>
             <file name="org-netbeans-modules-git-ui-fetch-FetchFromUpstreamAction.shadow">
                 <attr name="originalFile" stringvalue="Actions/Git/org-netbeans-modules-git-ui-fetch-FetchFromUpstreamAction.instance"/>
-                <attr name="position" intvalue="600"/>
+                <attr name="position" intvalue="570"/>
+            </file>
+            <file name="org-netbeans-modules-git-ui-fetch-PullAction.instance.shadow">
+                <attr name="originalFile" stringvalue="Actions/Git/org-netbeans-modules-git-ui-fetch-PullAction.instance"/>
+                <attr name="position" intvalue="580"/>
             </file>
             <file name="org-netbeans-modules-git-ui-fetch-FetchAction.shadow">
                 <attr name="originalFile" stringvalue="Actions/Git/org-netbeans-modules-git-ui-fetch-FetchAction.instance"/>

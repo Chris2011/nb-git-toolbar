@@ -4,7 +4,7 @@
 
     <groupId>de.markiewb.netbeans.plugins</groupId>
     <artifactId>git.toolbar</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.1.0-SNAPSHOT</version>
     <packaging>nbm</packaging>
 
     <name>Git toolbar</name>
@@ -77,6 +77,13 @@
 &lt;p&gt;
 &lt;img src="https://raw.github.com/markiewb/nb-git-toolbar/master/doc/screenshot1.gif"/&gt;
 &lt;/p&gt;
+
+&lt;h2&gt;Updates&lt;/h2&gt;
+&lt;h3&gt;1.1.0:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;[&lt;a href="https://github.com/markiewb/nb-git-toolbar/issues/1"&gt;Issue 1&lt;/a&gt;]: Add pull actions to toolbar&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;p&gt;Legal disclaimer: Code is licensed under Apache 2.0. &lt;/p&gt;
 </description>
 </project>

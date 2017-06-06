@@ -83,6 +83,10 @@
 &lt;ul&gt;
 &lt;li&gt;[&lt;a href="https://github.com/markiewb/nb-git-toolbar/issues/6"&gt;Issue 6&lt;/a&gt;]: Added GitRemote Toolbar&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h3&gt;1.1.0:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;[&lt;a href="https://github.com/markiewb/nb-git-toolbar/issues/1"&gt;Issue 1&lt;/a&gt;]: Add pull actions to toolbar&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;Legal disclaimer: Code is licensed under Apache 2.0. &lt;/p&gt;
 </description>

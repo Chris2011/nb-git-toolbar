@@ -69,5 +69,73 @@
                 <attr name="position" intvalue="900"/>
             </file>
         </folder>
+        
+        <folder name="GitRemote">
+
+            <file name="org-netbeans-modules-git-remote-ui-blame-AnnotateAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/GitRemote/org-netbeans-modules-git-remote-ui-blame-AnnotateAction.instance"/>
+                <attr name="position" intvalue="100"/>
+            </file>
+            <file name="org-netbeans-modules-git-remote-ui-history-SearchHistoryAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/GitRemote/org-netbeans-modules-git-remote-ui-history-SearchHistoryAction.instance"/>
+                <attr name="position" intvalue="150"/>
+            </file>
+            <file name="org-netbeans-modules-git-remote-ui-checkout-RevertChangesAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/GitRemote/org-netbeans-modules-git-remote-ui-checkout-RevertChangesAction.instance"/>
+                <attr name="position" intvalue="200"/>
+            </file>
+            <file name="org-netbeans-modules-git-remote-ui-commit-CommitAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/GitRemote/org-netbeans-modules-git-remote-ui-commit-CommitAction.instance"/>
+                <attr name="position" intvalue="250"/>
+            </file>
+            <file name="org-netbeans-modules-git-remote-ui-status-StatusAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/GitRemote/org-netbeans-modules-git-remote-ui-status-StatusAction.instance"/>
+                <attr name="position" intvalue="300"/>
+            </file>
+            <file name="org-netbeans-modules-git-remote-ui-diff-DiffAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/GitRemote/org-netbeans-modules-git-remote-ui-diff-DiffAction.instance"/>
+                <attr name="position" intvalue="500"/>
+            </file>
+            <file name="sep1.instance">
+                <attr name="instanceCreate" newvalue="javax.swing.JSeparator"/>
+                <attr intvalue="510" name="position"/>
+            </file>
+            <file name="org-netbeans-modules-git-remote-ui-branch-CreateBranchAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/GitRemote/org-netbeans-modules-git-remote-ui-branch-CreateBranchAction.instance"/>
+                <attr name="position" intvalue="520"/>
+            </file>
+            <file name="org-netbeans-modules-git-remote-ui-checkout-SwitchBranchAction.instance.shadow">
+                <attr name="originalFile" stringvalue="Actions/GitRemote/org-netbeans-modules-git-remote-ui-checkout-SwitchBranchAction.instance"/>
+                <attr name="position" intvalue="525"/>
+            </file>
+            <file name="sep2.instance">
+                <attr name="instanceCreate" newvalue="javax.swing.JSeparator"/>
+                <attr intvalue="550" name="position"/>
+            </file>
+            <file name="org-netbeans-modules-git-remote-ui-fetch-PullFromUpstreamAction.instance.shadow">
+                  <attr name="originalFile" stringvalue="Actions/GitRemote/org-netbeans-modules-git-remote-ui-fetch-PullFromUpstreamAction.instance"/>
+                <attr name="position" intvalue="560"/>
+            </file>
+            <file name="org-netbeans-modules-git-remote-ui-fetch-FetchFromUpstreamAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/GitRemote/org-netbeans-modules-git-remote-ui-fetch-FetchFromUpstreamAction.instance"/>
+                <attr name="position" intvalue="570"/>
+            </file>
+            <file name="org-netbeans-modules-git-remote-ui-fetch-PullAction.instance.shadow">
+                <attr name="originalFile" stringvalue="Actions/GitRemote/org-netbeans-modules-git-remote-ui-fetch-PullAction.instance"/>
+                <attr name="position" intvalue="580"/>
+            </file>
+            <file name="org-netbeans-modules-git-remote-ui-fetch-FetchAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/GitRemote/org-netbeans-modules-git-remote-ui-fetch-FetchAction.instance"/>
+                <attr name="position" intvalue="700"/>
+            </file>
+            <file name="org-netbeans-modules-git-remote-ui-push-PushAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/GitRemote/org-netbeans-modules-git-remote-ui-push-PushAction.instance"/>
+                <attr name="position" intvalue="800"/>
+            </file>
+            <file name="org-netbeans-modules-git-remote-ui-push-PushToUpstreamAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/GitRemote/org-netbeans-modules-git-remote-ui-push-PushToUpstreamAction.instance"/>
+                <attr name="position" intvalue="900"/>
+            </file>
+        </folder>
     </folder>
 </filesystem>
